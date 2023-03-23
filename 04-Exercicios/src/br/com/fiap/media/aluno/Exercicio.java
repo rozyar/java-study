@@ -30,7 +30,6 @@ public class Exercicio {
 		System.out.println("Digite a nota do global");
 		aluno.global = leitor.nextDouble();
 		
-		
 		//Calcular a media semestral do aluno
 		double media = aluno.calcularMediaSemestre();
 		System.out.println("A media semestral é" + media);
