@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+/home/rozyar/Documentos/javaStudy/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-2772547922.index
-148809651.index
-362470477.index
