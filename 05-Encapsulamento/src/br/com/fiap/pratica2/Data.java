@@ -88,8 +88,8 @@ public class Data {
 		//nome formatado de um campo de tempo. Esse método é geralmente usado para obter uma representação legível para humanos 
 		//de um valor de data ou hora, como nesse exemplo o nome completo do mês, mas poderia ser o nome do dia ou o nome do fuso horario.
 				
-		//O "TextStyle" significa o estilo que o texto ira voltar para gente e nos podemos definir ele por completo ou na forma curta
-		//como SHORT, ou FULL.
+		//O "TextStyle" significa o estilo que o texto ira voltar para a gente e nos podemos definir ele por completo ou na forma curta
+		//como SHORT ou FULL.
 				
 		//Já o locale nos retorna para a localidade e a lingua que queremos que a String seja escrita como mostra abaixo seria em portugues no local do Brasil 
 		//mas poderia ser em qualquer lingua ou localidade que tenha na api no java
