@@ -19,9 +19,9 @@ public class Data {
 	
 	public int validarDia(int dia) {
 		if(dia >= 1 && dia <= 31) {
-			return this.dia = dia;
+			return dia;
 		}else {
-			return this.dia = 1;
+			return 1;
 		}
 	}
 	
@@ -29,9 +29,9 @@ public class Data {
 	//Caso contrário inicializar o atributo com 1;
 	public int validarMes(int mes){
 		if(mes >=1 && mes <= 12) {
-			return this.mes = mes;
+			return mes;
 		}else {
-			return this.mes = 1;
+			return 1;
 		}
 	}
 	
@@ -39,9 +39,9 @@ public class Data {
 	//Caso contrá rio inicializar o atributo com 2023;
 	public int validarAno(int ano) {
 		if (ano < 0) {
-			return this.ano = 2023;
+			return 2023;
 		}else {
-			return this.ano = ano;
+			return ano;
 		}
 	}
 	
@@ -85,7 +85,7 @@ public class Data {
 		
 		String nomeMes = mes.getDisplayName(TextStyle.FULL, new Locale("pt", "Br"));
 		//O método getDisplayName é um método da classe java.time.temporal.TemporalAccessor que retorna uma string com o 
-		//nome formatado de um campo de tempo. Esse método é geralmente usado para obter uma representação legível para humanos 
+		//nome formatado de um campo de tempo. Esse método é geralmente usado para obter uma representação legível para nós 
 		//de um valor de data ou hora, como nesse exemplo o nome completo do mês, mas poderia ser o nome do dia ou o nome do fuso horario.
 				
 		//O "TextStyle" significa o estilo que o texto ira voltar para a gente e nos podemos definir ele por completo ou na forma curta
